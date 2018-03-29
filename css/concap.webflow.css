@@ -552,8 +552,8 @@ body {
 .icon-header {
   position: relative;
   width: 100%;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .icon-description {
