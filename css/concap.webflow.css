@@ -1328,6 +1328,7 @@ body {
 
 .about-us-mobile {
   display: none;
+  padding-top: 30px;
   padding-right: 80px;
   padding-left: 80px;
   -webkit-box-orient: horizontal;
