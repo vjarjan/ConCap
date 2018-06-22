@@ -504,17 +504,17 @@ body {
 }
 
 .slide.fearless {
-  background-image: -webkit-linear-gradient(0deg, transparent, rgba(0, 0, 0, .2) 50%, rgba(0, 0, 0, .5)), url('../images/filipe-dos-santos-mendes-100.jpg');
-  background-image: linear-gradient(90deg, transparent, rgba(0, 0, 0, .2) 50%, rgba(0, 0, 0, .5)), url('../images/filipe-dos-santos-mendes-100.jpg');
-  background-position: 0px 0px, 0px 50%;
-  background-size: auto, cover;
+  background-image: -webkit-linear-gradient(0deg, transparent, rgba(0, 0, 0, .2) 50%, rgba(0, 0, 0, .5)), url('../images/casedy-horner-44as4131-unsplash-50.jpeg'), url('../images/casedy-horner-44as4131-unsplash.jpg');
+  background-image: linear-gradient(90deg, transparent, rgba(0, 0, 0, .2) 50%, rgba(0, 0, 0, .5)), url('../images/casedy-horner-44as4131-unsplash-50.jpeg'), url('../images/casedy-horner-44as4131-unsplash.jpg');
+  background-position: 0px 0px, 50% 75%, 50% 75%;
+  background-size: auto, cover, cover;
 }
 
 .slide.partner {
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .25), hsla(0, 0%, 100%, 0)), -webkit-linear-gradient(0deg, transparent, rgba(0, 0, 0, .2) 50%, rgba(0, 0, 0, .5)), url('../images/pexels-photo-567633.jpeg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .25), hsla(0, 0%, 100%, 0)), linear-gradient(90deg, transparent, rgba(0, 0, 0, .2) 50%, rgba(0, 0, 0, .5)), url('../images/pexels-photo-567633.jpeg');
-  background-position: 0px 0px, 0px 0px, 100% 50%;
-  background-size: auto, auto, cover;
+  background-image: url('../images/medhat-dawoud-353792-unsplash.jpg'), -webkit-linear-gradient(270deg, rgba(0, 0, 0, .25), hsla(0, 0%, 100%, 0)), -webkit-linear-gradient(0deg, transparent, rgba(0, 0, 0, .2) 50%, rgba(0, 0, 0, .5)), url('../images/medhat-dawoud-353792-unsplash-50.jpg');
+  background-image: url('../images/medhat-dawoud-353792-unsplash.jpg'), linear-gradient(180deg, rgba(0, 0, 0, .25), hsla(0, 0%, 100%, 0)), linear-gradient(90deg, transparent, rgba(0, 0, 0, .2) 50%, rgba(0, 0, 0, .5)), url('../images/medhat-dawoud-353792-unsplash-50.jpg');
+  background-position: 50% 50%, 0px 0px, 0px 0px, 50% 50%;
+  background-size: cover, auto, auto, cover;
 }
 
 .slide.hoop {
@@ -525,8 +525,8 @@ body {
 }
 
 .slide.hoop {
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .25), hsla(0, 0%, 100%, 0)), -webkit-linear-gradient(0deg, transparent, rgba(0, 0, 0, .2) 50%, rgba(0, 0, 0, .5)), url('../images/basketball-dunk-blue-game-163452.jpeg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .25), hsla(0, 0%, 100%, 0)), linear-gradient(90deg, transparent, rgba(0, 0, 0, .2) 50%, rgba(0, 0, 0, .5)), url('../images/basketball-dunk-blue-game-163452.jpeg');
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .25), hsla(0, 0%, 100%, 0)), -webkit-linear-gradient(0deg, transparent, rgba(0, 0, 0, .2) 50%, rgba(0, 0, 0, .5)), url('../images/filipe-dos-santos-mendes-100.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .25), hsla(0, 0%, 100%, 0)), linear-gradient(90deg, transparent, rgba(0, 0, 0, .2) 50%, rgba(0, 0, 0, .5)), url('../images/filipe-dos-santos-mendes-100.jpg');
   background-position: 0px 0px, 0px 0px, 50% 0px;
   background-size: auto, auto, cover;
 }
@@ -1328,7 +1328,6 @@ body {
 
 .about-us-mobile {
   display: none;
-  padding-top: 30px;
   padding-right: 80px;
   padding-left: 80px;
   -webkit-box-orient: horizontal;
@@ -1391,6 +1390,73 @@ body {
   z-index: 5;
   background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), -webkit-linear-gradient(270deg, rgba(23, 123, 190, .2), rgba(0, 0, 0, .2));
   background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), linear-gradient(180deg, rgba(23, 123, 190, .2), rgba(0, 0, 0, .2));
+}
+
+.utility-page-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), -webkit-linear-gradient(270deg, rgba(1, 58, 63, .3), rgba(71, 46, 0, .2)), url('../images/alexander-horl-64750-unsplash-50.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(180deg, rgba(1, 58, 63, .3), rgba(71, 46, 0, .2)), url('../images/alexander-horl-64750-unsplash-50.jpg');
+  background-position: 0px 0px, 0px 0px, 50% 50%;
+  background-size: auto, auto, cover;
+}
+
+.utility-page-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  text-shadow: 0 0 50px rgba(0, 0, 0, .75);
+}
+
+.utility-page-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.heading-5 {
+  color: #fff;
+}
+
+.text-block-4 {
+  color: #fff;
+  font-size: 18px;
+}
+
+.link-3 {
+  margin-top: 20px;
 }
 
 @media (max-width: 991px) {
