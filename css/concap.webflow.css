@@ -956,10 +956,7 @@ body {
 }
 
 .video-content {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   min-height: 100vh;
   padding-top: 0px;
   padding-bottom: 30px;
