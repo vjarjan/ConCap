@@ -967,7 +967,10 @@ body {
 }
 
 .video-content {
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   min-height: 100vh;
   padding-top: 0px;
   padding-bottom: 30px;
