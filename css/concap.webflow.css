@@ -28,6 +28,11 @@ body {
   letter-spacing: -3px;
 }
 
+.heading.no-select {
+  font-weight: 400;
+  letter-spacing: -2px;
+}
+
 .paragraph {
   margin-top: 20px;
   margin-bottom: 0px;
@@ -37,6 +42,10 @@ body {
   font-style: italic;
   font-weight: 400;
   text-align: right;
+}
+
+.paragraph.no-select {
+  font-style: italic;
 }
 
 .div-block-2 {
@@ -100,6 +109,7 @@ body {
 .nav-link {
   padding-top: 10px;
   padding-bottom: 10px;
+  font-family: Montserrat, sans-serif;
   color: #efefef;
   font-size: 12px;
   letter-spacing: 1px;
@@ -137,7 +147,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
-  min-height: 100%;
+  min-height: 100vh;
   padding-top: 60px;
   padding-bottom: 120px;
   -webkit-box-align: center;
@@ -757,7 +767,7 @@ body {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: hsla(0, 0%, 93%, .9);
+  background-color: hsla(0, 0%, 93%, .7);
   opacity: 0;
 }
 
@@ -769,6 +779,7 @@ body {
 }
 
 .pricing-content {
+  min-height: 100vh;
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -1764,7 +1775,7 @@ body {
     margin-top: 150px;
   }
   .big-box {
-    height: 400px;
+    height: 100vh;
   }
   .paragraph-5 {
     font-size: 20px;
@@ -1807,8 +1818,8 @@ body {
     flex: 1;
   }
   .ip-header {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
   .ip-item-title {
     margin-top: 10px;
@@ -1855,6 +1866,7 @@ body {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    min-height: 100vh;
     padding-top: 30px;
     padding-bottom: 20px;
     -webkit-box-orient: vertical;
@@ -1862,6 +1874,10 @@ body {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
@@ -1980,8 +1996,8 @@ body {
     height: 53vw;
   }
   .ip-header {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
   .vj-headshot {
     width: 55%;

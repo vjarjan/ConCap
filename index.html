@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Fri Jun 22 2018 05:14:11 GMT+0000 (UTC)  -->
+<!--  Last Published: Wed Oct 31 2018 19:29:36 GMT+0000 (UTC)  -->
 <html data-wf-page="5a2800457a305e000153a9a6" data-wf-site="5a2800457a305e000153a9a5" lang="en">
 <head>
   <meta charset="utf-8">
@@ -36,39 +36,41 @@
     pointer-events: none;
     z-index: 99;
   }
+	.no-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
 </style>
 </head>
 <body class="body">
   <div data-collapse="medium" data-animation="default" data-duration="400" class="navbar w-nav">
-    <div class="container-2 w-container"><a href="index.html" class="brand w-nav-brand"><img src="images/Logo.png" width="250" class="image concap-logo"></a>
-      <nav role="navigation" class="nav-menu w-nav-menu">
-	      <a href="index.html" data-w-id="c2c21110-f6fc-1f04-cd80-15465c9ed4c0" class="nav-link w-nav-link w--current">Home</a>
-	      <a href="dream" data-w-id="dream" class="nav-link w-nav-link">Dream Calculator</a>
-	      <a href="about-us.html" data-w-id="d8146350-6ac6-6391-1528-867e5c9f8287" class="nav-link w-nav-link">About Us</a>
-	      <a href="work-with-us.html" data-w-id="261bfb71-59a0-5e22-e154-246909bca2b1" class="nav-link w-nav-link">Work With Us</a>
-	      <a href="https://medium.com/@theconcapway" target="_blank" id="TheConCapWay" data-w-id="90560b14-81a4-9dbc-c693-d93671d9aa44" class="nav-link w-nav-link">The Concap Way</a>
-	      <a href="https://investor.wealthscape.com/cir/investor-index.html?login" target="_blank" data-w-id="9effc809-61a6-18ea-0793-381cd1894c0a" class="nav-link w-nav-link">Login</a></nav>
+    <div class="container-2 w-container"><a href="index.html" class="brand w-nav-brand w--current"><img src="images/Logo.png" width="250" alt="" class="image concap-logo"></a>
+      <nav role="navigation" class="nav-menu w-nav-menu"><a href="index.html" data-w-id="c2c21110-f6fc-1f04-cd80-15465c9ed4c0" class="nav-link w-nav-link w--current">Home</a><a href="about-us.html" data-w-id="d8146350-6ac6-6391-1528-867e5c9f8287" class="nav-link w-nav-link">About Us</a><a href="work-with-us.html" data-w-id="261bfb71-59a0-5e22-e154-246909bca2b1" class="nav-link w-nav-link">Work With Us</a><a href="https://medium.com/@theconcapway" target="_blank" id="TheConCapWay" data-w-id="90560b14-81a4-9dbc-c693-d93671d9aa44" class="nav-link w-nav-link">The Concap Way</a><a href="/dream" target="_blank" id="TheConCapWay" data-w-id="93ad3a69-3759-2db1-7c4b-9b259cb3afce" class="nav-link w-nav-link">Dream Calculator</a><a href="https://investor.wealthscape.com/cir/investor-index.html?login" target="_blank" data-w-id="9effc809-61a6-18ea-0793-381cd1894c0a" class="nav-link w-nav-link">Login</a></nav>
       <div class="menu-button w-nav-button">
         <div class="icon w-icon-nav-menu"></div>
       </div>
     </div>
   </div>
-  <div data-delay="5000" data-animation="fade" class="header w-slider" data-autoplay="1" data-easing="ease-in-out" data-disable-swipe="1" data-duration="1000" data-infinite="1">
+  <div data-delay="5000" data-animation="fade" data-autoplay="1" data-easing="ease-in-out" data-disable-swipe="1" data-duration="1000" data-infinite="1" class="header w-slider">
     <div class="w-slider-mask">
       <div class="slide fearless w-slide">
         <div class="div-block-2">
-          <h1 class="heading">Learn to<br>Live Fearless</h1>
-          <p class="paragraph">Financial Consulting for the Next Generation</p><a href="work-with-us.html" data-w-id="3bb3bb9c-a9f7-4f92-430a-8bc909cffecd" class="button w-button">Become a Client</a></div>
+          <h1 class="heading no-select">Learn to<br>Live Fearless</h1>
+          <p class="paragraph no-select">Financial Consulting for the Next Generation</p><a href="work-with-us.html" data-w-id="3bb3bb9c-a9f7-4f92-430a-8bc909cffecd" class="button w-button">Become a Client</a></div>
       </div>
       <div class="slide partner w-slide">
         <div class="div-block-2">
-          <h1 class="heading">You Need a<br>Good Partner</h1>
-          <p class="paragraph">Let us help you realize your true potential</p><a href="work-with-us.html" data-w-id="65b2bb78-0ee0-34c0-b972-24946816abdd" style="background-color:rgba(95,95,95,0)" class="button w-button">Become a Client</a></div>
+          <h1 class="heading no-select">You Need a<br>Good Partner</h1>
+          <p class="paragraph no-select">Let us help you realize your true potential</p><a href="work-with-us.html" data-w-id="65b2bb78-0ee0-34c0-b972-24946816abdd" style="background-color:rgba(95,95,95,0)" class="button w-button">Become a Client</a></div>
       </div>
       <div class="slide hoop w-slide">
         <div class="div-block-2">
-          <h1 class="heading">Shoot for<br>the Hoop</h1>
-          <p class="paragraph">Aiming is not an option for us</p><a href="work-with-us.html" data-w-id="a7ea1e77-e46b-bc75-56ed-bb5c3dfc0c18" style="background-color:rgba(95,95,95,0)" class="button w-button">Become a Client</a></div>
+          <h1 class="heading no-select">Shoot for<br>the Hoop</h1>
+          <p class="paragraph no-select">Aiming is not an option for us</p><a href="work-with-us.html" data-w-id="a7ea1e77-e46b-bc75-56ed-bb5c3dfc0c18" style="background-color:rgba(95,95,95,0)" class="button w-button">Become a Client</a></div>
         <div id="sunParticles" class="particles"></div>
       </div>
     </div>
@@ -146,7 +148,7 @@
     </div>
     <div data-w-id="40a8b136-2624-d475-5f10-20ff32118aa7" class="ip-items">
       <div data-w-id="e47f5414-dfbe-663b-0533-cfd6b2ff315a" style="opacity:0" class="ip-item">
-        <div class="ip-header"><img src="images/clock.png" width="64" class="ip-item-icon">
+        <div class="ip-header"><img src="images/clock.png" width="64" alt="" class="ip-item-icon">
           <h2 class="ip-item-title">Long-Term</h2>
         </div>
         <div class="ip-item-description">
@@ -155,7 +157,7 @@
         </div>
       </div>
       <div data-w-id="20a0ab78-a6d5-ce1c-f83e-17bd6d383a65" style="opacity:0" class="ip-item">
-        <div class="ip-header"><img src="images/money-circulation.png" width="64" class="ip-item-icon">
+        <div class="ip-header"><img src="images/money-circulation.png" width="64" alt="" class="ip-item-icon">
           <h2 class="ip-item-title">Passive Management</h2>
         </div>
         <div class="ip-item-description">
@@ -164,7 +166,7 @@
         </div>
       </div>
       <div data-w-id="932dc00a-9f4b-b3b9-c4b4-00e5c0c18baa" style="opacity:0" class="ip-item">
-        <div class="ip-header"><img src="images/pie-chart.png" width="64" class="ip-item-icon">
+        <div class="ip-header"><img src="images/pie-chart.png" width="64" alt="" class="ip-item-icon">
           <h2 class="ip-item-title">Diversification</h2>
         </div>
         <div class="ip-item-description">
@@ -189,11 +191,11 @@
           </a>
         </div>
         <div class="div-block-18"></div>
-        <div class="footer-text-group"><img src="images/finra-logo.png" width="512" srcset="images/finra-logo-p-500.png 500w, images/finra-logo-p-800.png 800w, images/finra-logo.png 1024w" sizes="75px" class="footer-group-image finra"><a href="http://www.finra.org/" target="_blank" class="footer-link secondary">www.finra.org</a></div><a href="https://brokercheck.finra.org/" target="_blank" class="broker-check-link secondary">Check us out at FINRA BrokerCheck</a>
-        <div class="footer-text-group"><img src="images/sipc-logo-member-1.png" width="512" class="footer-group-image sipc"><a href="https://www.sipc.org/" target="_blank" class="footer-link secondary">www.sipc.org</a></div>
+        <div class="footer-text-group"><img src="images/finra-logo.png" width="512" srcset="images/finra-logo-p-500.png 500w, images/finra-logo-p-800.png 800w, images/finra-logo.png 1024w" sizes="75px" alt="" class="footer-group-image finra"><a href="http://www.finra.org/" target="_blank" class="footer-link secondary">www.finra.org</a></div><a href="https://brokercheck.finra.org/" target="_blank" class="broker-check-link secondary">Check us out at FINRA BrokerCheck</a>
+        <div class="footer-text-group"><img src="images/sipc-logo-member-1.png" width="512" alt="" class="footer-group-image sipc"><a href="https://www.sipc.org/" target="_blank" class="footer-link secondary">www.sipc.org</a></div>
         <div class="div-block-18"></div>
       </div>
-      <p class="footer-disclaimer">Investment Advisory Services offered through Investment Advisor Representative of Cambridge Investment Research Advisors Inc., a registered investment advisor. Securities offered through Cambridge Investment Research, Inc., a Broker/Dealer, Member FINRA/SIPC only to residents of Texas, Florida, Arizona &amp; New York. Cambridge and ConCap LLC are not affiliated. All models shown are for illustrative purposes only and not indicative of any individual recommendation. This is intended for informational purposes only and should not be used as the primary basis for an investment decision. Consult an advisor for your personal situation. Asset allocation and diversification strategies cannot assure profit or protect against loss in a generally declining market. Past performance does not guarantee future results.</p>
+      <p class="footer-disclaimer">Investment Advisory Services offered through Investment Advisor Representative of Cambridge Investment Research Advisors Inc., a registered investment advisor. Securities offered through Cambridge Investment Research, Inc., a Broker/Dealer, Member FINRA/SIPC only to residents of Texas &amp; New York. Cambridge and ConCap LLC are not affiliated. All models shown are for illustrative purposes only and not indicative of any individual recommendation. This is intended for informational purposes only and should not be used as the primary basis for an investment decision. Consult an advisor for your personal situation. Asset allocation and diversification strategies cannot assure profit or protect against loss in a generally declining market. Past performance does not guarantee future results.</p>
     </div>
     <div class="footer-text-group">
       <p class="footer-icon"></p>
@@ -362,7 +364,7 @@
     },
     "move": {
       "enable": true,
-      "speed": 2,
+      "speed": 1.5,
       "direction": "top-left",
       "random": false,
       "straight": true,
@@ -454,7 +456,7 @@ particlesJS("starParticles", {
       }
     },
     "size": {
-      "value": 2,
+      "value": window.innerWidth < 1000 ? 1 : 2,
       "random": true,
       "anim": {
         "enable": true,
